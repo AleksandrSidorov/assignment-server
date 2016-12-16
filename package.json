@@ -1,0 +1,26 @@
+{
+  "name": "assignment-server",
+  "version": "1.0.0",
+  "description": "Assignment server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "assignment-server"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "Aleksandr Sidorov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.2"
+  }
+}
