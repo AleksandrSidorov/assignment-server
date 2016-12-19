@@ -36,7 +36,8 @@ exports.deleteCategory = function(id) {
 // Products Handlers
 
 exports.listProducts = function(id) {
-  return Category.find({'title': 'Category 1'}, { 'products': 1, '_id': 0 });
+  console.log(id, " - ", typeof(id));
+  return Category.find({ '_id': id }, { 'products': 1 });
 }
 
 exports.deleteProduct = function(id) {
